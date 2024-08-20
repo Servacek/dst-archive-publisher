@@ -10,7 +10,7 @@ Webhook script for publishing Don't Starve Together world backups to Discord.
 ## Environment Variables
 | Name  | Description | Optional |
 | ------------- | ------------- | ------------- |
-| WEBHOOK_URL  | The full discord URL of your desired webhook in a forum channel | True
+| WEBHOOK_URL  | The full discord URL of your desired webhook in a forum channel | False
 | SAVE_NAME  | The name of the world backup to display as a title of the thread. | True
 | SAVE_DESCRIPTION | The description of the world backup displayed as the thread's initial message content. | True
 | MANUAL_URL | An discord url link to the message containing a manual for loading backups on clients. |True
