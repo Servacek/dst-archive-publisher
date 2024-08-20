@@ -16,8 +16,11 @@ Webhook script for publishing Don't Starve Together world backups to Discord.
 | MANUAL_URL | An discord url link to the message containing a manual for loading backups on clients. |True
 | SAVE_SHARDS | A list of shards this backup contains worlds for. | True
 
+You can use the run.* files if you want to store these environment variables to a separate file.
+
 ## Setup
 Add your desired backup to the `saves` directory and run `python main.py` from inside the root directory.
 It is especially useful when you already have some backup system setuped.
 
 ![image](https://github.com/user-attachments/assets/05fedf43-9493-4680-9ffb-25845f91c3ee)
+*Photos from the [[CZ/SK] Don't Starve](https://discord.gg/RHzJxut) community Discord where this webhook is currently being used for uploading backups automatically and in style B)*
